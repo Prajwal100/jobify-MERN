@@ -22,8 +22,12 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongoose": "^6.2.3"
+    "express-async-errors": "^3.1.1",
+    "http-status-code": "^2.1.0",
+    "mongoose": "^6.2.3",
+    "validator": "^13.7.0"
   }
 }

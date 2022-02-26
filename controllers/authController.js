@@ -1,5 +1,7 @@
+import User from "../models/User.js";
 const register = async (req, res) => {
-  res.send("register user");
+  const user = await User.create(req.body);
+  res.status(201).json({ user });
 };
 
 const login = async (req, res) => {
@@ -8,6 +10,7 @@ const login = async (req, res) => {
 
 const updateUser = async (req, res) => {
   res.send("update user");
+  user.save();
 };
 
 export { register, login, updateUser };
