@@ -13,21 +13,5 @@ npm run install-dependencies
 npm start
 ```
 
-- visit url http://localhost:3000/
+- visit url http://localhost:5000/
 
-#### Setup React App
-
-- create <b>client</b> folder
-- open terminal
-
-```sh
-cd client
-```
-
-```sh
-npx create-react-app .
-```
-
-```sh
-npm start
-```
